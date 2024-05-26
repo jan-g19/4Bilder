@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Style.css">
+
+    <script>
+        function getImage1(){
+            var x = document.getElementById("image1");
+            if (x.style.visibility == "hidden"){
+                x.style.visibility = "visible";
+            } else {
+                x.style.visibility = "hidden";
+            }
+        }
+
+        function getImage2(){
+            var x = document.getElementById("image2");
+            if (x.style.visibility == "hidden"){
+                x.style.visibility = "visible";
+            } else {
+                x.style.visibility = "hidden";
+            }
+        }
+
+        function getImage3(){
+            var x = document.getElementById("image3");
+            if (x.style.visibility == "hidden"){
+                x.style.visibility = "visible";
+            } else {
+                x.style.visibility = "hidden";
+            }
+        }
+
+        function getImage4(){
+            var x = document.getElementById("image4");
+            if (x.style.visibility == "hidden"){
+                x.style.visibility = "visible";
+            } else {
+                x.style.visibility = "hidden";
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <div class="headline">
+        Guess the Image
+    </div>
+    <div class="buttonbox">
+
+        <a href="all100.html">
+            <button class="swapbutton" onclick="">
+                100 P
+            </button>
+        </a>
+
+        <a href="all200.html">
+            <button class="swapbutton">
+                200 P
+            </button>
+        </a>
+
+        <a href="all300.html">
+            <button class="swapbutton">
+                300 P
+            </button>
+        </a>
+
+        <a href="all400.html">
+            <button class="swapbutton">
+                400 P
+            </button>
+        </a>
+           
+        <a href="index.html">
+            <button class="swapbutton">
+                Anime
+            </button> 
+        </a>
+
+    </div>
+
+    <div class="imageframe" > 
+        <div class="imagebox">
+            <button onclick="getImage1()">
+                <img id="image1" src="src/Screenshot_9.png" alt="1_1">
+            </button>
+    
+            <button onclick="getImage2()">
+                <img id="image2" src="src/Screenshot_9.png" alt="1_1">
+            </button>
+            
+            <button onclick="getImage3()">
+                <img id="image3" src="src/Screenshot_9.png" alt="1_1">
+            </button>
+            
+            <button onclick="getImage4()">
+                <img id="image4" src="src/Screenshot_9.png" alt="1_1">
+            </button>
+        </div>
+    </div>
+
+</body>
+</html>
+
+    
